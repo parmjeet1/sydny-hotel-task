@@ -60,6 +60,14 @@ export default function App() {
   useEffect(() => {
     fetchReviews();
     fetchCronStatus();
+
+    // Auto-poll Express backend every 30 seconds for new reviews & cron status
+    const interval = setInterval(() => {
+      fetchReviews();
+      fetchCronStatus();
+    }, 30000);
+
+    return () => clearInterval(interval);
   }, [selectedProperty, searchQuery, scoreFilter, sortBy]);
 
   // Trigger Live Scraper / Cron Sync via Backend API
