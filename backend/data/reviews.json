@@ -1,0 +1,21 @@
+{
+  "16211291": {
+    "hotel": {
+      "hotelId": 16211291,
+      "name": "Olympic Paddington",
+      "url": "https://www.booking.com/hotel/au/olympic-paddington.html",
+      "address": "Paddington, Sydney, Australia",
+      "overallScore": 7.1,
+      "scoreText": "Good",
+      "totalReviewsCount": 63,
+      "ratingScores": [
+        { "name": "hotel_staff", "translation": "Staff", "value": 8.2 },
+        { "name": "hotel_services", "translation": "Facilities", "value": 6.8 },
+        { "name": "hotel_clean", "translation": "Cleanliness", "value": 7.5 },
+        { "name": "hotel_comfort", "translation": "Comfort", "value": 7.5 },
+        { "name": "hotel_value", "translation": "Value for money", "value": 7.7 },
+        { "name": "hotel_location", "translation": "Location", "value": 8.4 }
+      ]
+    }
+  }
+}
